@@ -1,0 +1,275 @@
+
+@import url('css/base/typography.css');
+
+.container{
+    position: relative;
+    /* background-color: #3572CC; */
+    /* color: #fff; */
+    max-width: 1134px;
+    box-sizing:border-box;
+    border: 2px solid  transparent;
+    border-radius: 30px;
+    padding: 3.7rem 3.2rem;
+    line-height: 1.6rem;
+}
+
+.container .img1{
+    position: absolute;
+    right: 0;
+    transform: translate(25%, -80%);
+}
+
+.ctn3 .img2{
+    position: absolute;
+    max-width: 540px;
+    max-height: 420px;
+    left: 0;
+    top: 0;
+    transform: translate(-30%, -30%);
+    float: left;
+}
+
+.ctn3 .img-none{
+    display: none;
+    position: absolute;
+    max-width: 540px;
+    max-height: 420px;
+    left: 0;
+    top: 0;
+    transform: translate(-30%, -15%);
+    float: left;
+}
+
+.container h2,
+.container h3{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.ctn2 h2{
+    color: #3572CC;
+}
+
+.ctn3 h2{
+    color: #fff;
+    font-size: 2rem;
+}
+.ctn2{
+    border-radius: 0;
+    max-width: 100vw ;
+}
+
+.container p{
+    font-size: 1.3rem;
+    max-width: 690px;
+}
+
+.ctn2 p{
+    width: 100%;
+    max-width: 900px ;
+}
+
+.ctn3{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    text-wrap: wrap;
+
+    max-width: 1150px;
+    height: 373px;
+    padding: 1rem;
+
+}
+
+.ctn3 .ctn-txt{
+    max-width: 657px;
+    margin-left: 120px;
+    
+}
+
+.ctn3 .ctn-txt > *{
+    margin: 50px 0;
+}
+
+.ctn4 iframe{
+    width: 100vw;
+    height: 100vh;
+    max-width: 660px;
+    max-height: 480px;
+    position: absolute;
+    right: 0;
+    transform: translate(23%, 0%);
+    float: right;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+
+
+@media only screen and (max-width: 1250px){
+    .ctn1 .img1{
+        Width:360px;
+        Height:431.55px;
+        position: absolute;
+        right: 0;
+        transform: translate(25%, -110%);
+    }
+
+    .ctn3 .img2{
+        display: none;
+    }
+    .ctn3 .img-none{
+        display: block;
+        position: absolute;
+        max-width: 420px;
+        max-height: 326px;
+        left: 0;
+        top: 0;
+        transform: translate(-10%, -30%);
+        float: left;
+    }
+
+    .ctn3 .ctn-txt{
+        width: 657px;
+        margin-left: 0px;
+        margin:0%;
+    }
+
+    .ctn3 .ctn-txt p{
+        text-align: justify;
+    }
+/* 
+    .ctn3 .img2{
+        position: absolute;
+        max-width: 540px;
+        max-height: 420px;
+        left: 0;
+        top: 0;
+        transform: translate(-30%, -15%);
+        float: left;
+    } */
+
+}
+
+
+@media only screen and (max-width: 1130px) {
+
+    .ctn1 .img1{
+        Width:360px;
+        Height:431.55px;
+        position: absolute;
+        right: 0;
+        transform: translate(15%, 3%);
+    }
+
+    .ctn1{
+        width: 98%;
+        min-width: 318px;
+        padding-bottom: 15%;
+    }
+
+    .ctn1 h2{
+        font-size: 1.3rem;
+    }
+    
+    .ctn1 p{
+        font-size: 1rem;
+    }
+    
+    /* .ctn3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 417px;
+        height: 307px;
+        margin: auto;
+        padding: 2rem 2rem;
+    } */
+
+    .ctn3{
+        padding: 2rem 7%;
+    }
+
+    .ctn3 .ctn-txt {
+        min-width: 90%;
+        height: 326px;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+    .ctn3 .img-none{
+        position: absolute;
+        max-width: 420px;
+        max-height: 326px;
+        left: 0;
+        top: 0;
+        transform: translate(-10%, -90%);
+        float: left;
+    }
+
+    .ctn3 h2{
+        color: #fff;
+        font-size: 1.4rem;
+    }
+
+    .ctn3 .ctn-txt > *{
+        margin: 20px 0;
+    }
+
+    
+    /* .ctn3 .ctn-txt > *{
+        margin: 15px 0;
+    } */
+    
+    /* .ctn3 .ctn-txt p{
+        font-size: 1rem;
+        width: 357px;
+        height: 104px;
+    } */
+
+    @media only screen and (max-width: 1000px){
+
+        /* .ctn3{
+        padding: 2rem 7%;
+        }
+
+        
+        .ctn3 .ctn-txt {
+            min-width: 90%;
+            height: 326px;
+            margin-top: 25px;
+            margin-left: 0px;
+        } */
+
+        
+        /* .ctn3 .ctn-txt > *{
+            margin: 20px 0;
+        }
+
+        .ctn3 h2{
+            color: #fff;
+            font-size: 1.4rem;
+        } */
+
+        .ctn4{
+            padding: 3rem 3rem;
+            max-width: 700px;
+        }
+
+        .ctn4 .ctn-txt{
+            min-width: 90%;
+            height: 326px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-bottom: 30px;
+        }
+
+        .ctn4 iframe{
+
+            width: 418px;
+            height: 306px;
+            transform: translate(10%, 120%);
+        }
+    
+    }
+}

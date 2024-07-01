@@ -1,0 +1,20 @@
+.spacing{height: 20vh;}
+.spacing_r{height: 20vh;}
+.snone2{display: none;}
+.snone1{height: 10vh;}
+
+@media only screen and (max-width: 1130px) {
+    .spacing_r{height: 40vh;}
+}
+@media only screen and (max-width: 600px) {
+    /* .spacing_r{height: 50vh;} */
+    .spacing{height: 10vh;}
+    .snone1{display: none;}
+    .snone2{
+        display: block;
+        height: 10vh;}
+}
+
+/* @media only screen and (max-width: 630px) {
+    .spacing{height: 10vh;}
+} */

@@ -1,0 +1,43 @@
+/* base/typography.css */
+@import url('/font.css');
+
+/* Définition des polices de caractères par défaut pour l'ensemble du site */
+body {
+    font-family: 'Assistant',sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+    overflow-x: hidden;
+    hyphens: auto; 
+    /* word-wrap: break-word; */
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Ubuntu', sans-serif;
+    color: #222222;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+/* Paragraphes */
+p {
+    margin-bottom: 0.5rem;
+}
+
+/* Liens */
+a {
+    /* color: #007bff; */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.wrapper-f-ctn{
+    padding: 0 5%;
+}
+
+.wrapper-iframe{
+
+    max-width: 1310px;
+    max-height: 540px;
+    margin:0vh auto 0;
+    padding: 0 5%;
+
+}
+
+.wdesc{
+    gap: 50px;
+    padding: 0 6%;
+    justify-content: flex-start;
+}
+.w-card-toggle{
+    gap: 50px;
+    padding: 0 5%;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1000px){
+    .wnone{
+        display: none;
+    }
+} 

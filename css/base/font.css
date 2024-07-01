@@ -1,0 +1,231 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); */
+
+/* :root {
+    font-style font-weight font-size font-family
+    --ubuntu700: normal 700 1rem "Ubuntu", sans-serif;
+    --ubuntu700normal: normal 700 1rem"Ubuntu", sans-serif;
+    --ubuntu500: normal 500 1rem "Ubuntu", sans-serif;
+    --assistant300: normal 300 1rem"assistant", sans-serif;
+    --assistant400: normal 400 1rem"assistant", sans-serif;
+    --assistan700: normal 700 1rem"Ubuntu", sans-serif;
+} */
+
+
+/* Ubuntu */
+/* 
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+} */
+
+/* Assistant */
+
+/* .assistant-light {
+    font-family: "Assistant", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.assistant-regular {
+    font-family: "Assistant", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.assistant-medium {
+    font-family: "Assistant", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.assistant-bold {
+    font-family: "Assistant", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.assistant-light-italic {
+    font-family: "Assistant", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.assistant-regular-italic {
+    font-family: "Assistant", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.assistant-medium-italic {
+    font-family: "Assistant", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.assistant-bold-italic {
+    font-family: "Assistant", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+} */
+
+/* Ubuntu  */
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Regular-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+/* Assistant  */
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant/static/Assistant-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant/static/Assistant-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant/static/Assistant-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant/static/Assistant-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant/static/Assistant-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant/static/Assistant-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant/static/Assistant-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant/static/Assistant-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+

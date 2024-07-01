@@ -1,0 +1,141 @@
+.desc-box{
+    min-width: 380px ;
+    max-width: 630px;
+    /* width: fit-content; */
+}
+
+.desc-title{
+    padding-bottom:3.7rem ;
+
+}
+.desc-list{
+    border: 2px solid  transparent;
+    border-radius: 20px;
+    padding: 3.7rem 3.2rem;
+    box-sizing:border-box;
+    max-width: 630px;
+    line-height: 4.3rem;
+}
+
+.desc-box h3,
+.desc-box p,
+.desc-box a{
+    /* font-family: 'Ubuntu',sans-serif; */
+    font-weight: 700;
+    color: #3572CC;
+    font-size: 2rem;
+}
+
+
+.desc-toggle{
+    box-sizing:border-box;
+    max-width: 630px;
+    cursor: pointer;
+
+}
+.desc-toggle details{
+    position: relative;
+    border: 2px solid  transparent;
+    border-radius: 20px;
+    
+    margin: 15px 0;
+    font-size: 1.3rem;
+    min-height: 100px;
+    padding: 0 2rem ;
+}
+.desc-toggle details p{
+
+    background-color: red;
+    padding-bottom: 4rem;
+}
+
+.desc-toggle details summary{
+    list-style-type:"none";
+    font-family: 'Ubuntu',sans-serif;
+    color: #3572CC;
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    border: 2px solid  transparent;
+    border-radius: 20px;
+    min-height: 100px;
+    /* padding: 0 2rem; */
+    /* background-color: red; */
+}
+
+.desc-toggle details summary b{
+    flex: 1;
+}
+
+/* Toggle  */
+
+details[open] {
+    padding: 0 2rem 3rem 2rem;
+}
+
+.minus{
+    display: none;
+}
+
+details[open] summary .minus{
+    display: block;
+}
+
+.desc-box .details[open] summary .minus{
+    font-size: 2rem;
+}
+
+details[open] summary .plus{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 1130px) {
+    /* .desc-box{
+        
+        min-width: 420px; 
+        padding-bottom: 1%;
+        
+    } */
+    .desc-box h3,
+    .desc-box p,
+    .desc-box a{
+        font-size: 1.3rem;
+    }
+    .desc-list{
+        padding: 8px 5%;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 650px) {
+    .desc-box{
+        /* width: 95%; */
+        max-width: 420px;
+    }
+    
+    .desc-box h3,
+    .desc-box p,
+    .desc-box a{
+        font-size: 1.4rem;
+    }
+
+    .desc-list li{
+        min-width: 345px;
+    }
+/* .desc-list{
+    padding: 1rem 3.2rem;
+} */
+/* .desc-box{
+    width: 95%;
+    min-width: 318px;
+    padding-bottom: 1%;
+    margin: auto;
+} */
+
+}

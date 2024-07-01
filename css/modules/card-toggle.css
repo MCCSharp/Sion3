@@ -1,0 +1,144 @@
+
+ 
+ .card-toggle-b{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.card-toggle-b .card-headbkg{
+    background-size: cover;
+    background-position: center;
+}
+
+.card-toggle-b .card-body p{
+    font-size: 1.3rem;
+}
+.card-toggle-b .card-body h3{
+    color:#fff
+}
+
+.card-toggle-b .card-footer{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+ 
+.card1{
+    box-sizing: border-box;
+    /* flex: 1 1 calc(33.333% - 20px);  */
+}
+    
+ .card1 .card-head{
+    background-image: url('/assets/png/pexels-jan-van-der-wolf-1.png');
+
+}
+
+ .card2{
+    box-sizing: border-box;
+    /* flex: 1 1 calc(33.333% - 20px);  */
+}
+
+ .card2 .card-head{
+    background-image: url('/assets/png/pexels-jan-van-der-wolf-2.png');
+
+}
+
+ .card3{
+    box-sizing: border-box;
+    /* flex: 1 1 calc(33.333% - 20px);  */
+}
+    
+ .card3 .card-head{
+    background-image: url('/assets/png/pexels-jan-van-der-wolf-4.png');
+}
+
+ .card4{
+    box-sizing: border-box;
+    /* flex: 1 1 calc(33.333% - 20px);  */
+    }
+    
+ .card4 .card-head{
+    background-image: url('/assets/png/pexels-jan-van-der-wolf-5.png');
+}
+
+ .card5{
+    box-sizing: border-box;
+    /* flex: 1 1 calc(33.333% - 20px);  */
+}
+    
+ .card5 .card-head{
+    background-image: url('/assets/png/pexels-jan-van-der-wolf-6.png');
+}
+        
+ .card6{
+    box-sizing: border-box;
+    /* flex: 1 1 calc(33.333% - 20px);  */
+}
+
+ .card6 .card-head{
+    background-image: url('/assets/png/pexels-jan-van-der-wolf-7.png');
+}
+    
+ .card7{
+    box-sizing: border-box;
+    /* flex: 1 1 447px;  */
+}
+
+ .card7 .card-head{
+    background-image: url('/assets/png/pexels-jan-van-der-wolf-9.png');
+}
+
+ .card-toggle-wrapper{
+    gap: 50px;
+    padding: 40px;
+}
+
+ .card-toggle-b{
+    width: 100vw;
+    max-width: 420px;
+    overflow: hidden;
+}
+
+
+ .card-toggle-b .card-body{
+    position: relative;
+    padding: 20px  30px 20px 30px;
+}
+
+ .card-toggle-b .card-footer{
+    font-size: 1.5rem;
+}
+
+ .card-toggle-b .card-body p{
+    width: 350px;
+}
+
+ .card-toggle-b .card-head{
+    height: 100vh;
+    max-width: 420px;
+    max-height: 240px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    }
+
+ .card-toggle-b .card-filter{
+    width: 425px;
+    height: 245px;
+    background-color: rgba(51, 112, 204, 0.75);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 0;
+} 
+
+ .card-toggle-b .card-filter b{
+    font-size: 2rem;
+}

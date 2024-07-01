@@ -1,0 +1,18 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body h3{
+    color: #3572CC;
+    font-size: 2rem;
+}
+
+/* @media only screen and (max-width: 1000px){
+
+    .card{
+        width: 111px;
+        height: 99px;
+    }
+} */

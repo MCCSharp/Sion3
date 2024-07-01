@@ -1,0 +1,28 @@
+
+.title{
+
+    color: #3572CC;
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .title-r-b{
+        position: relative;
+        background-color: #3572CC;
+        width: fit-content;
+        max-width: 1134px;
+        box-sizing:border-box;
+        border: 2px solid  transparent;
+        border-radius: 20px;
+        padding: 1.7rem 3.6rem;
+        line-height: 1.6rem;
+        margin: auto;
+    }
+
+    .title-r-b h2{
+        font-size: 1.9rem;
+        color: #fff;
+    }
+
+}

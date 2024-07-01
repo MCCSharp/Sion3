@@ -1,0 +1,25 @@
+.link-btn{
+    width: fit-content;
+    border: 2px solid  #3572CC;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.link-btn a{
+    color: #3572CC;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.link-btn-w{
+    width: fit-content;
+    border: 2px solid  #fff;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.link-btn-w a{
+    color: #fff;
+    font-weight: 700;
+    padding: 0 20px;
+}
