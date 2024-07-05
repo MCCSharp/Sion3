@@ -1,0 +1,123 @@
+.form-container {
+    position: relative;
+    width: 100%;
+    max-width: 95vw;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kontakt-form {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-group {
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.full-width {
+    flex: 1 1 100%;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 1.32rem;
+    color: #3572CC;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(247, 247, 247, 1);
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.cbw{
+    position: relative;
+    width: 90%;
+    max-width: 848px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 3px;
+}
+
+.checkbox-label {
+    width: 90%;
+    max-width: 548px;
+    font-weight: normal;
+}
+
+.checkbox-form{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 40px;
+    margin-bottom: 100px;
+    z-index: 4;
+}
+
+
+button {
+    max-width: 628px;
+    height: 60px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3572CC;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #214c8e;
+}
+.lbl-b{
+    color: #3572CC;
+}
+
+textarea{
+    width: 100%;
+    Height:210px;
+}
+
+@media only screen and (max-width: 1400px){
+    .form-container{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+
+    .kontakt-form{
+        display: flex;
+        justify-content: center;
+        padding-right: 10px;
+    }
+/* 
+    input, textarea {
+    max-width: 400px;
+    
+    } */
+
+
+}

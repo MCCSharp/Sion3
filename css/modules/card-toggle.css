@@ -6,6 +6,9 @@
     transition: 0.4s;
     cursor: pointer;
     height: fit-content;
+    width: 100vw;
+    max-width: 420px;
+    overflow: hidden;
 }
 
 .card-toggle-b .card-headbkg{
@@ -53,9 +56,9 @@
     /* flex: 1 1 calc(33.333% - 20px);  */
 }
     
- .card3 .card-head{
+ /* .card3 .card-head{
     background-image: url('/assets/png/pexels-jan-van-der-wolf-4.png');
-}
+} */
 
  .card4{
     box-sizing: border-box;

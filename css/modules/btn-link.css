@@ -23,3 +23,17 @@
     font-weight: 700;
     padding: 0 20px;
 }
+
+@media only screen and (max-width: 650px) {
+
+    .btnlf{
+        Width:325px;
+    }
+
+
+    .link-btn-w a{
+        font-size: 1rem;
+
+    }
+    
+}

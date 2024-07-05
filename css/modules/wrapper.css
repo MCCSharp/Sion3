@@ -2,7 +2,10 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px 20px;
+    position: relative;
+
+    /* border: 2px solid red; */
 }
 
 .wrapper-f-ctn{
@@ -18,19 +21,37 @@
 
 }
 
-.wdesc{
+/* .wdesc{
     gap: 50px;
     padding: 0 6%;
     justify-content: flex-start;
-}
+} */
 .w-card-toggle{
     gap: 50px;
     padding: 0 5%;
     justify-content: flex-start;
+    margin: auto;
+}
+
+.w-vwg{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+@media only screen and (max-width: 1400px){
+    .w-card-toggle{
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 1000px){
     .wnone{
         display: none;
+    }
+
+    .w-vwg{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 } 

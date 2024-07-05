@@ -226,6 +226,7 @@
         width: 357px;
         height: 104px;
     } */
+}
 
     @media only screen and (max-width: 1000px){
 
@@ -258,18 +259,21 @@
 
         .ctn4 .ctn-txt{
             min-width: 90%;
-            height: 326px;
+            height: fit-content;
             margin-top: 0px;
             margin-left: 0px;
             margin-bottom: 30px;
         }
 
+        
         .ctn4 iframe{
-
+            
             width: 418px;
             height: 306px;
             transform: translate(10%, 120%);
         }
-    
+        
+        .ctn4 .ifctn4{
+            transform: translate(15%, 95%);
+        }
     }
-}
